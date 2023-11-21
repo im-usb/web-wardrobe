@@ -1,0 +1,53 @@
+nav {
+  box-shadow: -1px 1px 7px 0px #bfbfbf;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.logo h1 {
+  font-size: 28px;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.logo h1 a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-items {
+  width: 50%;
+  min-width: 300px;
+  text-align: left;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.nav-items ul li {
+  padding: 0 10px;
+}
+
+.nav-items ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+  font-family: "Arimo", sans-serif;
+}
+
+.site-options img {
+  padding: 0 5px;
+}
