@@ -42,12 +42,25 @@ nav {
 .nav-items ul li a {
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
   color: #000;
   font-family: "Arimo", sans-serif;
+  transition: color 0.2s ease-in-out;
 }
 
-.site-options img {
+.nav-items ul li a:hover {
+  color: #0069af;
+}
+
+.fa-solid,
+.fa-regular {
   padding: 0 5px;
+  color: #000;
+  transition: color 0.2s ease-in-out;
+}
+
+.fa-solid:hover,
+.fa-regular:hover {
+  color: #0069af;
 }
