@@ -10,10 +10,11 @@ body {
   font-family: "Arimo", sans-serif;
   font-family: "Lato", sans-serif;
   font-family: "Manrope", sans-serif;
+  background-color: #fbfbfb;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1230px;
   width: 100%;
   display: block;
   margin: 0 auto;
