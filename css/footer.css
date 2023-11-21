@@ -1,0 +1,72 @@
+footer {
+  background-color: #fbfbfb;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  font-family: "Lato", sans-serif;
+  border-bottom: solid 1px #e8e8e8;
+  margin: 0 0 35px;
+  padding: 55px 0;
+}
+
+.footer-links h3 {
+  text-transform: uppercase;
+  font-family: "Arimo", sans-serif;
+  font-size: 14px;
+  color: #1d1d1d;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 0 0 15px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+.footer-links ul li a:hover {
+  color: #0069af;
+}
+
+.footer-links .reach input[type="email"] {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.footer-links .reach button {
+  border: none;
+  background-color: #fbfbfb;
+  padding: 0;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cr-left a {
+  text-decoration: none;
+  color: #1d1d1d;
+  transition: color 0.2s ease-in-out;
+}
+
+.cr-left a:hover {
+  color: #0069af;
+}
+
+#privacy-policy {
+  padding: 0 10px 0 0;
+}
