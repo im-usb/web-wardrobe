@@ -1,0 +1,21 @@
+@import url("./nav.css");
+@import url("./footer.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arimo", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0 15px;
+}
